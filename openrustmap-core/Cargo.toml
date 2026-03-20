@@ -1,0 +1,23 @@
+[package]
+name = "openrustmap-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+thiserror = "2"
+serde = { version = "1", features = ["derive"] }
+directories = "6"
+
+# TUI types exposed by the core widget API.
+ratatui = "0.29"
+crossterm = { version = "0.28", features = ["event-stream"] }
+
+# Vector-tile (MVT) parsing.
+open-vector-tile = "=1.11.1"
+
+# v1 renderer fetches vector-tile PBFs and caches them locally.
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+
+# mapscii-style tile endpoints may gzip-compress the .pbf payload
+flate2 = "1"
