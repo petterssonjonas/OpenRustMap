@@ -1116,7 +1116,7 @@ dependencies = [
 
 [[package]]
 name = "openrustmap-app"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "anyhow",
  "crossterm",
@@ -1130,7 +1130,7 @@ dependencies = [
 
 [[package]]
 name = "openrustmap-core"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "anyhow",
  "crossterm",
@@ -1145,7 +1145,7 @@ dependencies = [
 
 [[package]]
 name = "openrustmap-plugin-radiobrowser"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "anyhow",
  "cpal",
