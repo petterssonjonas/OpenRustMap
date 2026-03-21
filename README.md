@@ -5,6 +5,12 @@ Terminal (TUI) map viewer written in Rust. It renders a **2D map** with **Unicod
 This repo is a standalone product. Embed `openrustmap-core` if you want a map inside another TUI.
 
 ---
+[## Preview
+
+| Zoomed out, world wiev | Zoomed in to Scandinavia |
+| ---------------------- | ----------------------- |
+| ![World](./World.png) | ![Scandinavia](./Scandinavia.png)       |
+
 
 ## Install
 
